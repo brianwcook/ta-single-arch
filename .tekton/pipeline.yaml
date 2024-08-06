@@ -121,15 +121,6 @@
                         }
                     ]
                 },
-                "when": [
-                    {
-                        "input": "$(params.prefetch-input)",
-                        "operator": "notin",
-                        "values": [
-                            ""
-                        ]
-                    }
-                ],
                 "runAfter": [
                     "clone-repository"
                 ],
