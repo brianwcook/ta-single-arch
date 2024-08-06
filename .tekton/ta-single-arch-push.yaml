@@ -25,7 +25,7 @@ spec:
     value: quay.io/redhat-user-workloads/brianwcook-tenant/trusted-artifacts/ta-single-arch:{{revision}}
   - name: dockerfile
     value: Dockerfile
-  pipelineRefSpec:
+  pipelineRef:
     name: docker-build-oci-ta
   taskRunTemplate: {}
   workspaces:
