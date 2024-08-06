@@ -87,7 +87,7 @@ spec:
       resolver: git
       params:
       - name: pathInRepo
-        value: task/buildah-oci-ta/0.2/buildah-oci-ta.yaml
+        value: task/buildah-oci-ta/0.1/buildah-oci-ta.yaml
       - name: revision
         value: "issue-1249"
       - name: url
