@@ -156,19 +156,19 @@
             {
                 "name": "build-container",
                 "taskRef": {
-                    "resolver": "bundles",
+                    "resolver": "git",
                     "params": [
                         {
-                            "name": "name",
-                            "value": "buildah-oci-ta"
+                            "name": "pathInRepo",
+                            "value": "task/buildah-oci-ta/0.1/buildah-oci-ta.yaml"
                         },
                         {
-                            "name": "bundle",
-                            "value": "quay.io/konflux-ci/tekton-catalog/task-buildah-oci-ta:0.2@sha256:3ccc7122935a0f24f02276b216bf9dc02dc2da4ef9cdb9263f05c34c003c7532"
+                            "name": "revision",
+                            "value": ""
                         },
                         {
-                            "name": "kind",
-                            "value": "task"
+                            "name": "url",
+                            "value": "https://github.com/brianwcook/build-definitions"
                         }
                     ]
                 },
