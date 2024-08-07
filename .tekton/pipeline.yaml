@@ -567,7 +567,8 @@
                         "value": "$(tasks.build-container.results.IMAGE_URL)"
                     }
                 ]
-            },
+            }
+        ],
         "params": [
             {
                 "name": "git-url",
