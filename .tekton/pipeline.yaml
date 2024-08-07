@@ -97,9 +97,8 @@ spec:
     #     value: quay.io/konflux-ci/tekton-catalog/task-buildah-oci-ta:0.2@sha256:3ccc7122935a0f24f02276b216bf9dc02dc2da4ef9cdb9263f05c34c003c7532
     #   - name: kind
     #     value: task
-
-    resolver: git
-    params:
+      resolver: git
+      params:
       - name: url
         value: https://github.com/brianwcook/build-definitions.git
       - name: revision
