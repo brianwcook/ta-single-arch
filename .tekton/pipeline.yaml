@@ -66,11 +66,11 @@ spec:
         value: quay.io/konflux-ci/tekton-catalog/task-prefetch-dependencies-oci-ta:0.1@sha256:34a2a8b700bfdfddc4a3e6328f0f8ba29eb2de89a921e24d05c39cc6c5d05351
       - name: kind
         value: task
-    when:
-    - input: "$(params.prefetch-input)"
-      operator: notin
-      values:
-      - ''
+    #when:
+    #- input: "$(params.prefetch-input)"
+    #  operator: notin
+    #  values:
+    #  - ''
     runAfter:
     - clone-repository
     params:
