@@ -28,7 +28,7 @@ spec:
     value: 5d
   - name: dockerfile
     value: Dockerfile
-  pipelineRefSpec:
+  pipelineRef:
     name: docker-build-oci-ta
   taskRunTemplate: {}
   workspaces:
