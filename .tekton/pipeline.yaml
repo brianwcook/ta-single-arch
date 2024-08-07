@@ -89,9 +89,9 @@ spec:
       - name: pathInRepo
         value: task/buildah-oci-ta/0.1/buildah-oci-ta.yaml
       - name: revision
-        value: "issue-1249"
+        value: "f3ac40bbc0230eccb8d98a4d54dabd55a4943c5d"
       - name: url
-        value: https://github.com/brianwcook/build-definitions
+        value: https://github.com/konflux-ci/build-definitions
     when:
     - input: "$(tasks.init.results.build)"
       operator: in
