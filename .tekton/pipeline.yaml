@@ -89,7 +89,7 @@ spec:
       - name: pathInRepo
         value: task/buildah-oci-ta/0.1/buildah-oci-ta.yaml
       - name: revision
-        value: "f3ac40bbc0230eccb8d98a4d54dabd55a4943c5d"
+        value: "8a2d1f0f2760d95e646b3ccbfb299e2f9666748b"
       - name: url
         value: https://github.com/konflux-ci/build-definitions
     when:
