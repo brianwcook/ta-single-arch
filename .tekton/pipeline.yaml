@@ -115,8 +115,6 @@ spec:
     runAfter:
     - prefetch-dependencies
     params:
-    - name: ACTIVATION_KEY
-      value: "not-a-real-key"
     - name: IMAGE
       value: "$(params.output-image)"
     - name: DOCKERFILE
