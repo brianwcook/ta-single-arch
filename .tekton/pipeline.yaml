@@ -99,8 +99,6 @@ spec:
     #     value: task
       resolver: git
       params:
-      - name: ACTIVATION_KEY:
-        value: "not-a-real-key"
       - name: url
         value: https://github.com/brianwcook/build-definitions.git
         #value: https://github.com/konflux-ci/build-definitions.git
@@ -117,6 +115,8 @@ spec:
     runAfter:
     - prefetch-dependencies
     params:
+    - name: ACTIVATION_KEY
+      value: "not-a-real-key"
     - name: IMAGE
       value: "$(params.output-image)"
     - name: DOCKERFILE
