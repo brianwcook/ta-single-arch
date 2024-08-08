@@ -100,11 +100,11 @@ spec:
       resolver: git
       params:
       - name: url
-        #value: https://github.com/brianwcook/build-definitions.git
-        value: https://github.com/konflux-ci/build-definitions.git
+        value: https://github.com/brianwcook/build-definitions.git
+        #value: https://github.com/konflux-ci/build-definitions.git
       - name: revision
-        #value: issue-1249
-        value: b2739ab714c96520eb7b021a1cc30b41d97035d1
+        value: issue-1249
+        #value: b2739ab714c96520eb7b021a1cc30b41d97035d1
       - name: pathInRepo
         value: task/buildah-oci-ta/0.1/buildah-oci-ta.yaml
     when:
